@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Details</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<!-- <style> -->
+<!-- /* * {
+padding: 0px;
+margin: 0px;
+}
+
+.background {
+background-image: url(cloud.jpg);
+height: 100vh;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.detail {
+margin: 0px 50px;
+}
+
+.searchbar {
+margin: 0px 50px;
+}
+
+.searchbar input {
+border: none;
+border-radius: 20px;
+padding: 5px 10px;
+width: 300px;
+}
+
+.searchbar button {
+border: none;
+/* filter: drop-shadow(0px 0px 10px black); */
+padding: 6px 15px;
+color: white;
+background-color: blue;
+border: none;
+border-radius: 15px;
+}
+
+.detail {
+/* display: flex; */
+}
+
+.d1 {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin: 10px 0px;
+transform: translateX(-20px);
+}
+
+.d1 p {
+font-size: 50px;
+}
+
+.d2 {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin: 10px 0px;
+transform: translateX(-50px);
+}
+
+#weatherimage {
+height: 50px;
+width: 50px;
+} */ -->
+<!-- </style> -->
+
+<body>
+    <div class="background">
+        <div class="searchbar">
+            <input id="cityname" type="" placeholder="Enter city name">
+            <button onclick="fetchdetails()" class="btn">search</button>
+        </div>
+        <div class="detail">
+            <h1 id="citydetails">city name</h1>
+            <h2 id="countryname">country</h2>
+            <div class="d1">
+                <img height="50px" width="50px" src="temp.png" alt="">
+                <p id="temperature">C</p>
+            </div>
+            <div class="d2">
+                <img id="weatherimage" src="sunny.png   ">
+            </div>
+            <p id="date">date</p>
+        </div>
+
+    </div>
+    <script src="D18-weather.js"></script>
+</body>
+
+</html>
