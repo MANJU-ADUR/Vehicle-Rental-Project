@@ -1,0 +1,60 @@
+.addcar {
+    /* height: 50vh; */
+    /* background-color: red; */
+}
+
+.addcar form {
+    width: 25%;
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.addcar form h2 {
+    margin: 5px 0px;
+    color: rgb(27, 77, 177);
+
+}
+
+.addcar form input {
+    width: 80%;
+    padding: 5px 50px 5px 5px;
+    margin: 5px 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.addcar form input:focus {
+    outline: 2px solid rgb(27, 77, 177);
+}
+
+.addcar form button:focus {
+    outline: 0px solid rgb(27, 77, 177);
+}
+
+.addcar form input::placeholder {
+    color: rgb(27, 77, 177);
+}
+
+.addcar form button {
+    background-color: rgb(27, 77, 177);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 5px 120px;
+}
+
+.addcar form button:hover {
+    background-color: rgb(58, 100, 184);
+    color: white;
+}
+
+.addcar form button:active {
+    transform: translateY(5px);
+    background-color: rgb(27, 77, 177);
+    color: white;
+}

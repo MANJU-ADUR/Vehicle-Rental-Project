@@ -1,0 +1,48 @@
+/* .viewcar {
+    background-color: red;
+}
+.viewcar .details{
+    background-color: yellow;
+} */
+.booked h1 {
+    color: rgb(27, 77, 177);
+    margin: 10px 170px;
+}
+
+.booked table th {
+    background-color: rgb(27, 77, 177);
+    color: white;
+    padding: 10px 0px;
+    /* border: 1px solid rgb(27, 77, 177); */
+}
+
+.booked table {
+    margin: 10px 165px;
+    border: 5px;
+    /* background-color: red; */
+    height: 50%;
+    width: 75%;
+}
+
+.booked table td {
+    font-size: 18px;
+    border: 1px solid rgb(27, 77, 177);
+    color: rgb(27, 77, 177);
+    padding: 5px 0px 5px 50px;
+}
+
+.booked table button {
+    padding: 5px 10px;
+    background-color: rgb(27, 77, 177);
+    color: white;
+    border: 1px solid rgb(27, 77, 177);
+    border-radius: 10px;
+}
+
+.booked table button:hover {
+    background-color: rgb(59, 106, 201);
+}
+
+.booked table button:active {
+    transform: translatey(2px);
+}

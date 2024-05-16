@@ -1,0 +1,14 @@
+.register form {
+    /* background-color: red; */
+    width: 30%;
+    height: auto;
+    position: fixed;
+    top: 25%;
+    left: 35%;
+    padding: 10px 20px;
+}
+
+.register form h1 {
+    margin: 0px 100px;
+    color: rgb(27, 77, 177);
+}

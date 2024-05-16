@@ -1,0 +1,48 @@
+.land {
+    /* background: color(srgb red green blue); */
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.land form {
+    width: 25%;
+    position: fixed;
+    top: 250px;
+    left: 580px;
+    /* background-color: grey; */
+}
+
+.land form img {
+    /* mix-blend-mode: color-burn; */
+    object-fit: contain;
+    height: 10%;
+    width: 50%;
+    margin: 10px;
+    border: 5px solid rgb(201, 34, 34);
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+
+.land form input {
+    background-color: black;
+    color: rgb(149, 35, 35);
+    padding: 5px 10px;
+    border: 1px solid rgb(149, 35, 35);
+    border-radius: 15%;
+    margin: 10px 0;
+    position: fixed;
+    left: 650px;
+    top: 300px;
+}
+
+.land input:focus {
+    outline: 1px rgb(149, 35, 35);
+}
+
+.land ::placeholder {
+    color: rgb(149, 35, 35);
+}

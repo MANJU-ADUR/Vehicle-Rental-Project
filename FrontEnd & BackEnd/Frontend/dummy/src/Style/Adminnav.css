@@ -1,0 +1,37 @@
+.nav {
+    background-color: rgb(27, 77, 177);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+
+}
+
+.logo h3 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.options {
+    width: 75%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.options a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    /* background-color: yellow; */
+    padding: 5px 5px;
+    color: white;
+    text-decoration: none;
+    /* margin: 0px 10px; */
+    transition: 0.5s;
+}
+
+.options a:hover {
+    background-color: white;
+    color: rgb(27, 77, 177);
+
+}

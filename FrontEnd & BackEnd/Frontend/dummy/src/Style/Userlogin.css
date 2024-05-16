@@ -1,0 +1,58 @@
+.userlogin form {
+    position: fixed;
+    top: 200px;
+    left: 350px;
+    padding: 10px;
+}
+
+.userlogin form h1 {
+    margin: 5px 218px;
+    color: rgb(27, 77, 177);
+}
+
+.userlogin form input {
+    padding: 10px 200px 10px 10px;
+    margin: 3px 155px;
+    border: 2.5px solid rgb(27, 77, 177);
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.userlogin form input:focus {
+    outline: 1px rgb(27, 77, 177);
+}
+
+.userlogin form input::placeholder {
+    color: rgb(27, 77, 177);
+
+}
+
+.userlogin button {
+    width: 20%;
+    padding: 8px 30px;
+    margin: 5px 10px 5px 160px;
+    border: 2px solid rgb(27, 77, 177);
+    background-color: rgb(27, 77, 177);
+    color: white;
+    border-radius: 20px;
+}
+
+.userlogin form button:focus {
+    outline: 1px rgb(27, 77, 177);
+}
+
+.userlogin form button:hover {
+    color: white;
+    background-color: rgb(64, 111, 204);
+}
+
+.userlogin form button:active {
+    transform: scale(1.03);
+    /* color: red; */
+    /* transform: translateY(2px); */
+}
+
+
+.userlogin form a {
+    color: rgb(27, 77, 177);
+}
